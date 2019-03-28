@@ -163,7 +163,7 @@ public static void main(String[] args){
 			System.out.println("enter the number of room");
 			String number;
 			number=scn2.nextLine();
-			System.out.println("enter the name of the pet to which it is to create a clinical history");
+			System.out.println("Enter the name of the pet you want to register");
 			String name;
 			name=scn2.nextLine();
 			System.out.println(vetSafePet.relasedPet(number,name));
